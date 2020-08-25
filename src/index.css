@@ -1,0 +1,138 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: whitesmoke;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+button:focus{
+  border: none !important;
+  outline: none !important;
+}
+#header{
+  background-color: #19274c !important;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0px;
+}
+#navToggle{
+  border: 0px;
+  background-color: transparent;
+  color: white;
+  outline: 0px;
+}
+
+#logout{
+  background-color: white;
+  border: none;
+  color:#19274c
+}
+#logoContainer{
+  width: 150px;
+  padding-left: 20px;
+}
+/* #inputs .row div{
+  border: 1px solid red;
+} */
+#inputs{
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+#tripSummary{
+  text-align: left;
+  color:#19274c;
+}
+#tripSummary h5{
+  margin-bottom: 0px;
+}
+
+#tripSummary .summary{
+  color:#19274c;
+  font-size: 10px;
+}
+#tripSummary .summary span{
+  color: blue;
+}
+#tripInputs .input-group-text{
+  font-size: 12px;
+  background-color: transparent;
+}
+#tripInputs .form-control{
+  font-size: 12px;
+}
+#tripInputs button{
+  font-size: 12px;
+}
+#inputSearch{
+  background-color: #37c4c9;
+  color: white;
+  width: 100%;
+}
+#inputExport{
+  border: 1px solid #37c4c9;
+  color: #37c4c9;
+  width: 100%;
+}
+#dashInfo{
+  margin-left: 25px;
+  margin-right: 5px;
+}
+#infoTabs>div{
+  padding:  5px ;
+  color: white;
+  font-size: 12px;
+}
+#infoTabs>div>div{
+
+  padding: 5px 0px;
+}
+#infoExt>div{
+  background-color: #19274c;
+  color: white;
+  margin: 5px 10px;
+  padding: 20px 0px;
+  font-size: 12px;
+}
+#tabularInfo{
+  padding: 10px 15px;
+  padding-top: 0px;
+}
+.tabularInfoHead{
+  background-color: #19274c;
+  color: white;
+  font-size: 10px;
+  padding: 10px 0px;
+}
+.tabularInfoTable{
+  margin-top: 20px;
+}
+.tabularInfoDesc{
+  background-color: white;
+  padding: 10px 20px;
+}
+.tabularInfoDesc .table th,.tabularInfoDesc .table td{
+  padding: 8px 0px;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid whitesmoke;
+}
+.tabularInfoDesc .table th{
+  background-color:#37c4c9 ;
+  color: white;
+}
+.table-striped tbody tr:nth-of-type(odd){
+  background-color: white;
+}
+.table-striped tbody tr:nth-of-type(even){
+  background-color: #f0f7fd;
+}
+.tablebtn{
+  background-color:#37c4c9 ;
+  color: white;
+  border: none;
+  margin-right: 5px;
+}
+
